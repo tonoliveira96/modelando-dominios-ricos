@@ -1,4 +1,6 @@
-Compilar o projeto? `dotnet build`.
+# Modelando Domínios Ricos
+
+Compilar o projeto: `dotnet build`.
 
 Criar uma solution: `dotnet new sln`.
 Criar uma nova Class: `dotnet new classlib`.
