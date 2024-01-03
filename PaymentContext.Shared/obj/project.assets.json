@@ -1,0 +1,69 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net7.0": []
+  },
+  "packageFolders": {
+    "C:\\Users\\everton.oliveira\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\everton.oliveira\\Documents\\Balta.io\\Modelando Domínios Ricos\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
+      "projectName": "PaymentContext.Shared",
+      "projectPath": "C:\\Users\\everton.oliveira\\Documents\\Balta.io\\Modelando Domínios Ricos\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
+      "packagesPath": "C:\\Users\\everton.oliveira\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\everton.oliveira\\Documents\\Balta.io\\Modelando Domínios Ricos\\PaymentContext\\PaymentContext.Shared\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\everton.oliveira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/way2/_packaging/internal/nuget/v3/index.json": {},
+        "https://way2.pkgs.visualstudio.com/_packaging/main/nuget/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
