@@ -1,13 +1,28 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+
+using Flunt.Notifications;
+using Flunt.Validations;
+using PaymentContext.Shared.ValueObjects;
 
 namespace PaymentContext.Domain.ValueObjects
 {
-    public class Address
+    public class Address: ValueObject
     {
+        public Address(string street, string number, string neighborhood, string city, string state, string country, string zipCode)
+        {
+            Street = street;
+            Number = number;
+            Neighborhood = neighborhood;
+            City = city;
+            State = state;
+            Country = country;
+            ZipCode = zipCode;
+
+            AddNotifications(new Contract<Notification>()
+                .Requires()
+                .IsNotEmpty(Street, "Address.Street", "Campo vazio."));
+        }
+
         public string Street { get; private set; }
         public string Number { get; private set; }
         public string Neighborhood { get; private set; }

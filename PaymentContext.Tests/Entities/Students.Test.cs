@@ -12,7 +12,7 @@ namespace PaymenContext.Test
             var name = new Name("teste", "teste");
             foreach (var not in name.Notifications)
             {
-                not.Message;
+                //not.Message;
             }
         }
     }
