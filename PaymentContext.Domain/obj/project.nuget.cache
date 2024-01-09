@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "2K+9wVYAAny8/2YOAmNAbZxIvWG+iAGJpM1/7oVf9mqKrXLC+R8phCD3nqmNRXjCpgT9tbN1H05FU5EWZawCqQ==",
+  "dgSpecHash": "f8oA6r0gKckBB1I2Z0rxiHhcNxCZVQzKlqNRhL40u7sOp8GvV2Xs/BLbuGWLlDPrTPODRpK483usGF1QfwR1xg==",
   "success": true,
   "projectFilePath": "C:\\Users\\everton.oliveira\\Documents\\Balta.io\\Modelando Domínios Ricos\\PaymentContext\\PaymentContext.Domain\\PaymentContext.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\everton.oliveira\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512"
+  ],
   "logs": []
 }

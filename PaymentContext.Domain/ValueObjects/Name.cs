@@ -1,6 +1,4 @@
-﻿
-
-using PaymentContext.Shared.ValueObjects;
+﻿using PaymentContext.Shared.ValueObjects;
 
 namespace PaymentContext.Domain.ValueObjects
 {
@@ -10,6 +8,10 @@ namespace PaymentContext.Domain.ValueObjects
         {
             FirstName = firstName;
             FLastName = fLastName;
+
+            if(string.IsNullOrEmpty(FirstName))
+                AddNotification("Name.First", "Nome inválido");
+            
         }
 
         public string FirstName { get; private set; }

@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "usr4KH6PwdPMhKL77iiOfx/h98ZZbMG5SpRy7Jl8Nl65m+ZOoqwGSmMczNRTCZJ4L5EJHPXFebe8K8CLS4migQ==",
+  "dgSpecHash": "4G/5aMW/TpPdRNPF1kR6+/E40REC6E20fV/+L8ACKnTVe01pkyVmnmjv9kPy2awKy2TDAQ5LuT+xZEkC5L+uXw==",
   "success": true,
   "projectFilePath": "C:\\Users\\everton.oliveira\\Documents\\Balta.io\\Modelando Domínios Ricos\\PaymentContext\\PaymentContext.Tests\\PaymentContext.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\everton.oliveira\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
+    "C:\\Users\\everton.oliveira\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512",
     "C:\\Users\\everton.oliveira\\.nuget\\packages\\microsoft.codecoverage\\17.7.1\\microsoft.codecoverage.17.7.1.nupkg.sha512",
     "C:\\Users\\everton.oliveira\\.nuget\\packages\\microsoft.net.test.sdk\\17.7.1\\microsoft.net.test.sdk.17.7.1.nupkg.sha512",
     "C:\\Users\\everton.oliveira\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
