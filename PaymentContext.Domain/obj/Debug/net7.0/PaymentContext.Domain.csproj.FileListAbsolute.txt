@@ -13,3 +13,4 @@ C:\Users\everton.oliveira\Documents\Balta.io\Modelando Domínios Ricos\PaymentCo
 C:\Users\everton.oliveira\Documents\Balta.io\Modelando Domínios Ricos\PaymentContext\PaymentContext.Domain\bin\Debug\net7.0\PaymentContext.Shared.pdb
 C:\Users\everton.oliveira\Documents\Balta.io\Modelando Domínios Ricos\PaymentContext\PaymentContext.Domain\obj\Debug\net7.0\PaymentContext.Domain.csproj.AssemblyReference.cache
 C:\Users\everton.oliveira\Documents\Balta.io\Modelando Domínios Ricos\PaymentContext\PaymentContext.Domain\obj\Debug\net7.0\PaymentContext.Domain.csproj.CopyComplete
+C:\Users\everton.oliveira\Documents\Balta.io\Modelando Domínios Ricos\PaymentContext\PaymentContext.Domain\obj\Debug\net7.0\PaymentContext.Domain.sourcelink.json

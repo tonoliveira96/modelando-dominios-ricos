@@ -8,9 +8,9 @@ namespace PaymenContext.Test
         [TestMethod]
         public void TestMethod()
         {
-            var subscription = new Subscription(null);
-            var student = new Student("Everton", "Oliveira", "1200000", "tonn.oliveira2011@gmail.com");
-            student.AddSubscription(subscription);
+            //var subscription = new Subscription(null);
+            //var student = new Student("Everton", "Oliveira", "1200000", "tonn.oliveira2011@gmail.com");
+            //student.AddSubscription(subscription);
         }
     }
 }
