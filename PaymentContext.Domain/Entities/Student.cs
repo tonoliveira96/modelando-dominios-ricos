@@ -5,7 +5,7 @@ using PaymentContext.Shared.Entities;
 
 namespace PaymenContext.Domain.Entities
 {
-    public class Student: Entity
+    public class Student : Entity
     {
         private IList<Subscription> _subscriptions;
         public Student(Name name, Document document, Email email)
@@ -37,7 +37,8 @@ namespace PaymenContext.Domain.Entities
 
             AddNotifications(new Contract<Notification>()
                 .Requires()
-                .IsFalse(hasSubscriptionActive, "Studet.Subscriptions", "Você já tem uma assinatura ativa."));
+                .IsFalse(hasSubscriptionActive, "Studet.Subscriptions", "Você já tem uma assinatura ativa.")
+                .AreEquals(0, subscription.Payments.Count, "Studet.Subscriptions", "Está assinatura nãopossui pagamentos"));
         }
     }
 }

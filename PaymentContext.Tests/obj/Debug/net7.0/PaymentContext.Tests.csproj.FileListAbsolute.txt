@@ -103,3 +103,4 @@ C:\Users\everton.oliveira\Documents\Balta.io\Modelando Domínios Ricos\PaymentCo
 C:\Users\everton.oliveira\Documents\Balta.io\Modelando Domínios Ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net7.0\PaymentContext.Domain.pdb
 C:\Users\everton.oliveira\Documents\Balta.io\Modelando Domínios Ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net7.0\PaymentContext.Shared.pdb
 C:\Users\everton.oliveira\Documents\Balta.io\Modelando Domínios Ricos\PaymentContext\PaymentContext.Tests\obj\Debug\net7.0\PaymentContext.Tests.sourcelink.json
+C:\Users\everton.oliveira\Documents\Balta.io\Modelando Domínios Ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net7.0\Flunt.dll
