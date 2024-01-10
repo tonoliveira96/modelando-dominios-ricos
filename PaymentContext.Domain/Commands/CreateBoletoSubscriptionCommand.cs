@@ -38,7 +38,7 @@ namespace PaymentContext.Domain.Commands
             AddNotifications(new Contract<INotifiable>()
                 .Requires()
                 .IsNotEmpty(FirstName, "Name.FirstName", "Campo vazio.")
-                .IsNotEmpty(LastName, "Name.LastName", "Campo vazio.")););
+                .IsNotEmpty(LastName, "Name.LastName", "Campo vazio."));
         }
     }
 }

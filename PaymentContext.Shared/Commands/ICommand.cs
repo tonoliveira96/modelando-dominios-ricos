@@ -1,4 +1,6 @@
-﻿namespace PaymentContext.Shared.Commands
+﻿using Flunt.Notifications;
+
+namespace PaymentContext.Shared.Commands
 {
     public class ICommand
     {
