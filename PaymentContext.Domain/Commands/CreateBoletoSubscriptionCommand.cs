@@ -1,13 +1,11 @@
-﻿using PaymentContext.Domain.Enums;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Flunt.Notifications;
+using Flunt.Validations;
+using PaymentContext.Domain.Enums;
+using PaymentContext.Shared.Commands;
 
 namespace PaymentContext.Domain.Commands
 {
-    public class CreateBoletoSubscriptionCommand
+    public class CreateBoletoSubscriptionCommand : Notifiable<Notification>, ICommand
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
@@ -34,5 +32,13 @@ namespace PaymentContext.Domain.Commands
         public string Country { get; set; }
         public string ZipCode { get; set; }
         public string PayerEmail { get; set; }
+
+        public void Validate()
+        {
+            AddNotifications(new Contract<INotifiable>()
+                .Requires()
+                .IsNotEmpty(FirstName, "Name.FirstName", "Campo vazio.")
+                .IsNotEmpty(LastName, "Name.LastName", "Campo vazio.")););
+        }
     }
 }
