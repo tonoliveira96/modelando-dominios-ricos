@@ -1,7 +1,5 @@
 ﻿
 using PaymentContext.Domain.Commands;
-using PaymentContext.Domain.Entities;
-
 
 namespace PaymentContext.Tests.Commands
 {
